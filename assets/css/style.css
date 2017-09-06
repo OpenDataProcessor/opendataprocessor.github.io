@@ -1246,7 +1246,7 @@ General Styles - Owlcarousel
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 12px;
+  font-size: 14px;
   transition: background, padding 0.4s ease-in-out 0s;
   min-height: 70px;
 }
@@ -1282,6 +1282,7 @@ General Styles - Owlcarousel
 .navbar-custom .nav li > a {
   position: relative;
   color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 
 .navbar-custom .dropdown-menu > li > a {
@@ -2952,6 +2953,6 @@ Google map
 @media (min-width: 768px) {
   .navbar-nav {
       float: right!important;
-      margin-top: 10px;
+      margin-top: 12px;
   }
 }
