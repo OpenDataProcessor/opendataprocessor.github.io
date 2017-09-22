@@ -1266,7 +1266,7 @@ General Styles - Owlcarousel
 .navbar-custom .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   text-transform: none;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 22px;
   color: #fff;
 }
@@ -2939,7 +2939,11 @@ Google map
 
 /* Custom Styles */
 .bg-dark-60:before {
-  background: rgba(44, 62, 80, 0.8);
+  background: rgba(44, 62, 80, 0.6);
+}
+
+.bg-dark-90:before {
+  background: rgba(44, 62, 80, 0.9);
 }
 
 .module-small.bg-dark {
