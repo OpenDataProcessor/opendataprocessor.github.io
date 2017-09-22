@@ -2954,6 +2954,24 @@ Google map
   background: #34495e;
 }
 
+@media (max-width: 386px) {
+  .navbar-custom .navbar-brand {
+    font-size: 18px !important;
+    height: 100%;
+  }
+}
+
+@media (min-width: 386px) and (max-width:768px) {
+  .navbar-custom .navbar-brand {
+    font-size: 22px !important;
+    height: 100%;
+  }
+
+  .navbar-toggle {
+    margin-top: 18px !important;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
       float: right!important;
